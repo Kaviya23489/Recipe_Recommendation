@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 # 🎯 Load dataset
-df = pd.read_excel("Magical Recipe detailed.xlsx")
+df = pd.read_excel("Magical Recipe detailed.xlsx)
 
 # 🎯 Encode categorical values
 mood_encoder = LabelEncoder()
